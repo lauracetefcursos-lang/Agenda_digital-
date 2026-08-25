@@ -1,0 +1,733 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #f4f6ff;
+
+    color: #20204a;
+
+    min-height: 100vh;
+}
+
+
+/* =========================
+   CAPA
+========================= */
+
+.pagina-capa {
+
+    background:
+        linear-gradient(
+            135deg,
+            #3730a3,
+            #6366f1,
+            #818cf8
+        );
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-height: 100vh;
+
+}
+
+
+.capa {
+
+    background: rgba(255, 255, 255, 0.97);
+
+    width: 90%;
+
+    max-width: 600px;
+
+    padding: 60px 40px;
+
+    border-radius: 30px;
+
+    text-align: center;
+
+    box-shadow:
+        0 25px 60px rgba(0,0,0,0.25);
+
+}
+
+
+.icone-capa {
+
+    width: 90px;
+
+    height: 90px;
+
+    margin: auto;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #4f46e5;
+
+    color: white;
+
+    border-radius: 25px;
+
+    font-size: 45px;
+
+}
+
+
+.capa h1 {
+
+    margin-top: 25px;
+
+    font-size: 42px;
+
+}
+
+
+.capa p {
+
+    color: #777;
+
+    margin-top: 10px;
+
+    font-size: 18px;
+
+}
+
+
+.botoes-capa {
+
+    margin-top: 35px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+}
+
+
+.botao {
+
+    display: block;
+
+    width: 100%;
+
+    border: none;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    background: #4f46e5;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    text-decoration: none;
+
+    text-align: center;
+
+    transition: 0.3s;
+
+}
+
+
+.botao:hover {
+
+    background: #3730a3;
+
+    transform: translateY(-2px);
+
+}
+
+
+.botao-secundario {
+
+    background: transparent;
+
+    border: 2px solid #4f46e5;
+
+    color: #4f46e5;
+
+}
+
+
+.botao-secundario:hover {
+
+    background: #4f46e5;
+
+    color: white;
+
+}
+
+
+/* =========================
+   LOGIN / CADASTRO
+========================= */
+
+.pagina-formulario {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 30px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #eef2ff,
+            #f8f9ff
+        );
+
+}
+
+
+.formulario {
+
+    background: white;
+
+    width: 100%;
+
+    max-width: 480px;
+
+    padding: 40px;
+
+    border-radius: 22px;
+
+    box-shadow:
+        0 15px 45px rgba(0,0,0,0.10);
+
+}
+
+
+.icone {
+
+    width: 65px;
+
+    height: 65px;
+
+    background: #4f46e5;
+
+    border-radius: 18px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 30px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.formulario h1 {
+
+    font-size: 30px;
+
+}
+
+
+.formulario > p {
+
+    color: #777;
+
+    margin-top: 8px;
+
+    margin-bottom: 25px;
+
+}
+
+
+label {
+
+    display: block;
+
+    font-weight: bold;
+
+    margin-top: 18px;
+
+    margin-bottom: 7px;
+
+}
+
+
+input,
+select,
+textarea {
+
+    width: 100%;
+
+    padding: 14px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    outline: none;
+
+}
+
+
+input:focus,
+select:focus,
+textarea:focus {
+
+    border-color: #4f46e5;
+
+}
+
+
+.link-formulario {
+
+    text-align: center;
+
+    margin-top: 20px;
+
+    color: #777;
+
+}
+
+
+.link-formulario a {
+
+    color: #4f46e5;
+
+    font-weight: bold;
+
+}
+
+
+.voltar {
+
+    display: block;
+
+    text-align: center;
+
+    margin-top: 20px;
+
+    color: #555;
+
+    text-decoration: none;
+
+}
+
+
+/* =========================
+   CABEÇALHO
+========================= */
+
+.cabecalho {
+
+    background: white;
+
+    padding: 20px 7%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+
+}
+
+
+.cabecalho h1 {
+
+    font-size: 25px;
+
+}
+
+
+.cabecalho p {
+
+    color: #777;
+
+    margin-top: 5px;
+
+}
+
+
+.botao-sair {
+
+    background: #ef4444;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+}
+
+
+/* =========================
+   AGENDA
+========================= */
+
+.agenda-container {
+
+    max-width: 1000px;
+
+    width: 92%;
+
+    margin: 30px auto;
+
+}
+
+
+.boas-vindas {
+
+    background:
+        linear-gradient(
+            135deg,
+            #4f46e5,
+            #6366f1
+        );
+
+    color: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    margin-bottom: 25px;
+
+}
+
+
+.boas-vindas h2 {
+
+    margin-bottom: 8px;
+
+}
+
+
+/* CALENDÁRIO */
+
+.calendario {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,0.06);
+
+}
+
+
+.titulo-agenda {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 25px;
+
+}
+
+
+.mes-botao {
+
+    width: 42px;
+
+    height: 42px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #eef2ff;
+
+    color: #4f46e5;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+}
+
+
+.dias-semana,
+.dias {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(7, 1fr);
+
+    gap: 8px;
+
+}
+
+
+.dias-semana {
+
+    margin-bottom: 10px;
+
+}
+
+
+.dias-semana span {
+
+    text-align: center;
+
+    color: #777;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+}
+
+
+.dia {
+
+    min-height: 55px;
+
+    border: none;
+
+    background: #f7f7ff;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+}
+
+
+.dia:hover {
+
+    background: #ddd9ff;
+
+}
+
+
+.dia.selecionado {
+
+    background: #4f46e5;
+
+    color: white;
+
+}
+
+
+/* RESERVA */
+
+.reserva,
+.minhas-reservas {
+
+    background: white;
+
+    padding: 30px;
+
+    margin-top: 25px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,0.06);
+
+}
+
+
+.reserva h2,
+.minhas-reservas h2 {
+
+    margin-bottom: 10px;
+
+}
+
+
+#dataSelecionada {
+
+    color: #777;
+
+    margin-bottom: 20px;
+
+}
+
+
+.horarios {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 10px;
+
+    margin-bottom: 25px;
+
+}
+
+
+.horarios button {
+
+    padding: 13px;
+
+    border: 2px solid #e0e0e0;
+
+    background: white;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+}
+
+
+.horarios button:hover,
+.horarios button.selecionado {
+
+    background: #4f46e5;
+
+    color: white;
+
+    border-color: #4f46e5;
+
+}
+
+
+textarea {
+
+    height: 100px;
+
+    resize: none;
+
+}
+
+
+.reserva .botao {
+
+    margin-top: 20px;
+
+}
+
+
+/* RESERVAS */
+
+.reserva-card {
+
+    padding: 20px;
+
+    border-left: 5px solid #4f46e5;
+
+    background: #f8f8ff;
+
+    border-radius: 10px;
+
+    margin-top: 15px;
+
+}
+
+
+.reserva-card p {
+
+    margin-top: 7px;
+
+    color: #555;
+
+}
+
+
+.cancelar {
+
+    margin-top: 15px;
+
+    padding: 9px 15px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #ef4444;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+
+    .capa {
+
+        padding: 40px 25px;
+
+    }
+
+    .capa h1 {
+
+        font-size: 32px;
+
+    }
+
+    .formulario {
+
+        padding: 25px;
+
+    }
+
+    .horarios {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+    }
+
+    .cabecalho {
+
+        padding: 18px;
+
+    }
+
+    .cabecalho h1 {
+
+        font-size: 20px;
+
+    }
+
+}

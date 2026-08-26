@@ -46,22 +46,13 @@ if (formCadastro) {
                 return;
             }
 
-
-            // =====================================
-            // DADOS QUE SERÃO ENVIADOS À PLANILHA
-            // =====================================
-
-            const dados = {
-
-                Tipo_de_usuario: tipo,
-
-                nome: nome,
-
-                email: email,
-
-                senha: senha
-
-            };
+// PEGA OS DADOS DO CADASTRO
+const dados = {
+    tipo_de_usuario: document.getElementById("tipo_de_usuario").value,
+    nome: document.getElementById("nome").value,
+    email: document.getElementById("email").value,
+    senha: document.getElementById("senha").value
+};
 
 
             // =====================================
@@ -72,13 +63,9 @@ if (formCadastro) {
                 {
 
                     method: "POST",
-
                     mode: "no-cors",
-
                     headers: {
-
-                        "Content-Type":
-                            "application/json"
+                        "Content-Type":"application/json"
 
                     },
 

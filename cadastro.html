@@ -23,10 +23,11 @@
             <h1>Criar conta</h1>
 
             <p>
-                Cadastre-se para reservar o laboratório.
+                Cadastre-se para acessar a Agenda Digital.
             </p>
 
-            <form onsubmit="fazerCadastro(event)">
+
+            <form id="formCadastro">
 
                 <label for="tipo">
                     Tipo de usuário
@@ -61,13 +62,13 @@
                 >
 
 
-                <label for="identificacao">
-                    E-mail institucional ou RA
+                <label for="email">
+                    E-mail ou RA
                 </label>
 
                 <input
                     type="text"
-                    id="identificacao"
+                    id="email"
                     placeholder="Digite seu e-mail ou RA"
                     required
                 >
@@ -85,8 +86,12 @@
                 >
 
 
-                <button type="submit" class="botao">
-                    Criar minha conta
+                <button
+                    type="submit"
+                    class="botao">
+
+                    Cadastrar
+
                 </button>
 
             </form>
@@ -103,15 +108,21 @@
             </p>
 
 
-            <a href="index.html" class="voltar">
+            <a
+                href="index.html"
+                class="voltar">
+
                 ← Voltar
+
             </a>
 
         </div>
 
     </main>
 
+
     <script src="script.js"></script>
 
 </body>
+
 </html>

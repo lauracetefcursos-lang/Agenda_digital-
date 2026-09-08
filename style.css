@@ -318,36 +318,23 @@ textarea:focus {
 .link-formulario a {
 
     color: #4f46e5;
-
     font-weight: bold;
-
 }
-
-
 .voltar {
-
     display: block;
-
     text-align: center;
-
     margin-top: 20px;
-
     color: #555;
-
     text-decoration: none;
-
 }
-
 /* =========================
    LOGIN - SEPARADO
 ========================= */
-
 .login-area {
     margin-top: 30px;
     padding-top: 25px;
     border-top: 1px solid #ddd;
 }
-
 .login-area input {
     display: block;
     width: 100%;
@@ -365,288 +352,145 @@ textarea:focus {
     outline: none;
     border-color: #4f46e5;
 }
-
 .login-area .botao {
     margin-top: 20px;
 }
-
 /* =========================
    CABEÇALHO
 ========================= */
-
 .cabecalho {
-
     background: white;
-
     padding: 20px 7%;
-
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
-
     box-shadow: 0 3px 15px rgba(0,0,0,0.08);
-
 }
-
-
 .cabecalho h1 {
-
     font-size: 25px;
-
 }
-
-
 .cabecalho p {
-
     color: #777;
-
     margin-top: 5px;
-
 }
-
-
 .botao-sair {
-
     background: #ef4444;
-
     color: white;
-
     border: none;
-
     padding: 10px 20px;
-
     border-radius: 10px;
-
     cursor: pointer;
-
 }
-
-
 /* =========================
    AGENDA
 ========================= */
-
 .agenda-container {
-
     max-width: 1000px;
-
     width: 92%;
-
     margin: 30px auto;
-
 }
-
-
 .boas-vindas {
-
     background:
         linear-gradient(
             135deg,
             #4f46e5,
             #6366f1
         );
-
     color: white;
-
     padding: 30px;
-
     border-radius: 20px;
-
     margin-bottom: 25px;
-
 }
-
-
 .boas-vindas h2 {
-
     margin-bottom: 8px;
-
 }
-
-
 /* CALENDÁRIO */
-
 .calendario {
-
     background: white;
-
     padding: 30px;
-
     border-radius: 20px;
-
     box-shadow:
         0 8px 25px rgba(0,0,0,0.06);
-
 }
-
-
 .titulo-agenda {
-
     display: flex;
-
     align-items: center;
-
     justify-content: space-between;
-
     margin-bottom: 25px;
-
 }
-
-
 .mes-botao {
-
     width: 42px;
-
     height: 42px;
-
     border: none;
-
     border-radius: 10px;
-
     background: #eef2ff;
-
     color: #4f46e5;
-
     font-size: 20px;
-
     cursor: pointer;
-
 }
-
-
 .dias-semana,
 .dias {
-
     display: grid;
-
     grid-template-columns:
         repeat(7, 1fr);
-
     gap: 8px;
-
 }
-
-
 .dias-semana {
-
     margin-bottom: 10px;
-
 }
-
-
 .dias-semana span {
-
     text-align: center;
-
     color: #777;
-
     font-size: 13px;
-
     font-weight: bold;
-
 }
-
-
 .dia {
-
     min-height: 55px;
-
     border: none;
-
     background: #f7f7ff;
-
     border-radius: 10px;
-
     cursor: pointer;
-
     font-size: 15px;
-
 }
-
-
 .dia:hover {
-
     background: #ddd9ff;
-
 }
-
-
 .dia.selecionado {
-
     background: #4f46e5;
-
     color: white;
-
 }
-
-
 /* RESERVA */
-
 .reserva,
 .minhas-reservas {
-
     background: white;
-
     padding: 30px;
-
     margin-top: 25px;
-
     border-radius: 20px;
-
     box-shadow:
         0 8px 25px rgba(0,0,0,0.06);
-
 }
-
-
 .reserva h2,
 .minhas-reservas h2 {
-
     margin-bottom: 10px;
-
 }
-
-
 #dataSelecionada {
-
     color: #777;
-
     margin-bottom: 20px;
-
 }
-
-
 .horarios {
-
     display: grid;
-
     grid-template-columns:
         repeat(3, 1fr);
-
     gap: 10px;
-
     margin-bottom: 25px;
-
 }
-
-
 .horarios button {
-
     padding: 13px;
-
     border: 2px solid #e0e0e0;
-
     background: white;
-
     border-radius: 10px;
-
     cursor: pointer;
-
 }
-
-
 .horarios button:hover,
 .horarios button.selecionado {
 

@@ -15,11 +15,7 @@ body {
 }
 
 
-/* =========================
-   CAPA
-========================= */
-
-.pagina-capa {
+.capa {
 
     background:
         linear-gradient(
@@ -197,8 +193,8 @@ body {
     background:
         linear-gradient(
             135deg,
-            #0236b9,
-            #052098
+            #0b48ef,
+            #7b8ef7
         );
 
 }
@@ -308,7 +304,7 @@ textarea:focus {
 
     text-align: center;
 
-    margin-top: 20px;
+    margin-top: 30px;
 
     color: #777;
 

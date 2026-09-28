@@ -55,9 +55,7 @@ const dados = {
 };
 
 
-            // =====================================
             // ENVIAR PARA O GOOGLE APPS SCRIPT
-            // =====================================
 
             fetch("https://script.google.com/macros/s/AKfycbweQLTadWSWW7cfk2aXVgi7ewGmVLcSBZ525u7JMqugk6cBXKFCX5rY--HKilenoJ3K/exec",
                 {
